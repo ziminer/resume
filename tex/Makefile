@@ -1,5 +1,5 @@
 all:
-	lualatex cv.tex
+	lualatex RomanZimineResume.tex
 
 clean:
-	rm cv.log cv.out cv.pdf
+	rm RomanZimineResume.log RomanZimineResume.out RomanZimineResume.pdf
