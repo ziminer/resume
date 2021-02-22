@@ -14,29 +14,37 @@
     437-580-4860
   \section{programming}
     C++, C, Go,
-    Java, JavaScript,
+    Java, JavaScript/TypeScript,
     Python
   \section{technologies}
-    Docker, Ember.js, PostgreSQL, Redis, Unreal Engine
+    Docker, Ember.js, AngularJS, PostgreSQL, Redis, Spring, Kafka, Kubernetes, Unreal Engine, gRPC
 \end{aside}
 
 \section{interests}
 
-algorithms, artificial intelligence, distributed systems, game development,\\
-machine learning, systems programming
+algorithms, clean code, distributed systems, developer productivity, systems engineering, systems programming
 
 
 \section{experience}
 
 \begin{entrylist}
   \entry
-    {05/14-03/16}
+    {05/16-present}
+    {Principal Software Engineer, Turbonomic}
+    {Toronto, CA}
+    {\begin{itemize}
+      \item Early engineer on the \hlref{https://blog.turbonomic.com/turbonomic-8-now-available}{Turbonomic 8 Platform} - a microservice-oriented rewrite of the product with 100x the performance and scalability. Heavily involved in the design and implementation of most services.
+      \item Created the "Voltron" framework to run all components in one JVM, enabling local development and debugging with 10x less resources and a 35x faster change cycle (3m to 5s).
+      \item Responsible for numerous order-of-magnitude performance improvements instrumental in closing and maintaining multi-million dollar deals at our largest customers.
+      \item Led the development of multiple frameworks supporting the platform.
+    \end{itemize}}
+  \entry
+    {05/14-05/16}
     {Game Developer, Radiant Entertainment Inc.}
     {Los Altos, CA}
     {\begin{itemize}
       \item As the third engineer on the \hlref{http://www.pcgamer.com/rising-thunder-a-pc-only-fighting-game-from-experts-in-the-genre/}{Rising Thunder} team, took the game from prototype to an active alpha with millions of played matches.
-      \item Led the integration of GGPO with Unreal Engine to create the best online experience in any fighting game to date.
-      \item Integrated fixed-point math into Unreal Engine, and wrote a determenistic, fixed-point collision system.
+      \item Led the integration of rollback netcode with Unreal Engine.
       \item Worked with a designer to create the in-game UI (Ember.js).
       \item Made significant contributions to the server code (Go, C++) to improve matchmaking and stability.
     \end{itemize}}
@@ -46,30 +54,20 @@ machine learning, systems programming
     {Palo Alto, CA}
     {\begin{itemize}
       \item Optimized and stabilized VMware Inventory Service for the vSphere 2015 release.
-      \item Implemented internal query interface for vCenter.
       \item Reduced Inventory Service IO by 75\%, total vCenter Server IO by 35\%.
     \end{itemize}}
   \entry
     {05/12–08/12}
     {Engineering Intern, VMware Inc.}
     {Palo Alto, CA}
-    {\begin{itemize}
-      \item Ported the back-end database of VMware Inventory Service from xDB to MongoDB.
-    \end{itemize}}
-  \entry
+   \entry
     {05/11–08/11}
     {Engineering Intern, Google Inc.}
     {Mountain View, CA}
-    {\begin{itemize}
-      \item Designed and implemented code samples and documentation for the ST Coprocessor, an internal tool augmenting Megastore.
-    \end{itemize}}
   \entry
     {05/10–08/10}
     {Engineering Intern, VMware Inc.}
     {Palo Alto, CA}
-    {\begin{itemize}
-      \item Designed and implemented code samples for the vSphere Web Services SDK.
-    \end{itemize}}
 \end{entrylist}
 
 \section{education}
@@ -81,18 +79,7 @@ machine learning, systems programming
     {Waterloo, ON}
     {\begin{itemize}
        \item Computer Science Major, Classical Studies and Philosophy Minors
-       \item 88\% GPA
     \end{itemize}}
 \end{entrylist}
-
-\section{projects}
-
-\begin{itemize}[noitemsep]
-  \item Implemented a small RPC library in C++.
-  \item Added virtual memory and system calls to OS161.
-  \item Participated in the 2012 Global Game Jam, developing a game in C++.
-  \item Made a tetris clone with one-piece AI in C++.
-  \item Implemented a small compiler in C.
-\end{itemize}
 
 \end{document}
